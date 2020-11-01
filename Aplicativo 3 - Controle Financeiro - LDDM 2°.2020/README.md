@@ -1,19 +1,23 @@
-# Lista de Viagem
-Aplicativo para listar itens necessários para uma viagem.
+# Controle Financeiro
+Aplicativo para organizar o controle financeiro do usuário.
 # Vídeo demonstrativo
-https://www.youtube.com/watch?v=gGcZ-kXxQIU
+https://www.youtube.com/watch?v=-p7njaJyqCQ
 # Funcionalidade
-O aplicativo recebe do usuário uma escolha de qual lista prévia(roupas femininas ou masculinas) o usuário deseja utilizar. Após a escolha, uma segunda tela apresenta a lista de itens, além de opções para aumentar e diminuir a quantidade de itens, excluir um item, assinalar um item(✔️) e adicionar novos itens.
+O aplicativo recebe do usuário uma escolha de um mês dentre uma lista de meses e retorna uma segunda página com uma lista de itens lançados no mês, uma soma dos lançamentos do mês e um botão o qual possibilita a adição de um novo lançamento.
 # Documentação
-1. Item.List_view.view.dart - Partição que define a visualização do aplicativo ao usuário.. 
+1. AppControleFinanceiro.List_view.view.dart - Partição que define a visualização do aplicativo ao usuário.. 
 
-    * _displayDialog(context); - Constrói o PopUp que adiciona itens à Lista
-    * _telaLista(); - Escreve na tela a Lista e opções para manipular a Lista  
-    * _telaListaVazia(); - Tela de selação de uma pré Lista
-    * _buttonEnviar(); - Constroí o botão 'ENVIAR' da _telaListaVazia();
-    * _preListas(); - Processa a seleção da pré Lista
+    * class HomePage - Classe que constrói o Widget da página principal;
+    * class printMes - Classe que constrói o Widget da página secundária;
+    * _editText(String field, TextEditingController controller) - Recebe o título de um campo do formulário e retorna o campo configurado;
+    * _displayDialog(context, int numeroMes) - Recebe um id de um mês e retorna o pop-up do formulário;
+    * double retornaSoma(int numeroMes) - Recebe um id de um mês e retorna a soma dos lançamentos desse mês;
+    * _popupMenuButton() - Retorna o pop-up do SharedPreference do tema da aplicação;
+    * _loadTheme() - Lê o SharedPreference;
+    * _setTheme(theme) - Salva o SharedPreference.
+    * 
 
-2. Item.models.dart - Partição que define o modelo de dados utilizado no aplicativo
-3. item.controller.dart - Partição que controla os dados utilizados no aplicativo
-4. item.repository.dart - Partição que armazena e recupera os dados no aplicativo 
+2. AppControleFinanceiro.models.dart - Partição que define o modelo de dados utilizado no aplicativo
+3. AppControleFinanceiro.controller.dart - Partição que controla os dados utilizados no aplicativo
+4. AppControleFinanceiro.repository.dart - Partição que armazena e recupera os dados no aplicativo 
 5. main.dart - Ponto de partida do aplicativo 
