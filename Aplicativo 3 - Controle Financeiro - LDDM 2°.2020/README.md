@@ -15,7 +15,7 @@ O aplicativo recebe do usuário uma escolha de um mês dentre uma lista de meses
     * _popupMenuButton() - Retorna o pop-up do SharedPreference do tema da aplicação;
     * _loadTheme() - Lê o SharedPreference;
     * _setTheme(theme) - Salva o SharedPreference.
-    * 
+    
 
 2. AppControleFinanceiro.models.dart - Partição que define o modelo de dados utilizado no aplicativo
 3. AppControleFinanceiro.controller.dart - Partição que controla os dados utilizados no aplicativo
