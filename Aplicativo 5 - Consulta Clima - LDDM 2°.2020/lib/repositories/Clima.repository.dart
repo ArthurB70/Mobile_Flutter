@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 
 class ClimaRepository{
 
-  var url = 'https://api.hgbrasil.com/weather?fields=only_results,temp,city_name,description,humidity,wind_speedy&key=126223d1&city_name=';
+  var url = 'https://api.hgbrasil.com/weather?fields=only_results,temp,city_name,description,humidity,wind_speedy&key=<CHAVE DA API>&city_name=';
   
   Future<Clima> getClima(String cidade, String estado) async{
     final response = await http.get(url + cidade + ", " + estado);
