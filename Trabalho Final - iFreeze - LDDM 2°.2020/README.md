@@ -7,7 +7,7 @@
  https://www.youtube.com/watch?v=HdsYw6JwXJc
  
 # Funcionalidades
-  Na página inicial o usuário pode cadastrar, editar e remover geladeiras aos dados do aplicativo. Além disso, pode selecionar uma geladeira e adicionar produtos a ela por meio da leitura de um QRcode. A temperatura é medida por um sensor inserido na geladeira e é retornada pelo protocolo MQTT. Na página de listagem dos produtos da geladeira, o usuário pode aumentar e diminuir a quantidade do produto, caso o produto tenha quantidade 0 ele é automaticamente excluído da lista.
+  Na página inicial o usuário pode cadastrar, editar e remover geladeiras aos dados do aplicativo. Além disso, pode selecionar uma geladeira e adicionar produtos a ela por meio da leitura de um QRcode. A temperatura é medida por um sensor inserido na geladeira e é retornada por um protocolo MQTT. Na página de listagem dos produtos da geladeira, o usuário pode aumentar e diminuir a quantidade do produto, caso o produto tenha quantidade 0 ele é automaticamente excluído da lista.
   
   Exemplo do conteúdo textual do QRcode: {"nome":"Banana","quantidade":10,"validade":"25/12/2020"}
 
