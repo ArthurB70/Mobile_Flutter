@@ -5,9 +5,9 @@
   https://www.youtube.com/watch?v=HdsYw6JwXJc
 # Fotos
 ![](images/CadastroPage.png)
-![](images/CadastroPage.png)
-![](images/CadastroPage.png)
-![](images/CadastroPage.png)
+![](images/HomePage.png)
+![](images/HomePageRemover.png)
+![](images/ListPage.png)
 # Funcionalidade
   O aplicativo cadastra geladeiras
 # Documentação
