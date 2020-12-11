@@ -12,6 +12,7 @@
   Exemplo do conteúdo textual do QRcode: {"nome":"Banana","quantidade":10,"validade":"25/12/2020"}
 
 # Download do APK
+https://drive.google.com/file/d/1HMvaXkiNbdan8vOFg0fo99rMfP0EaC8z/view?usp=sharing
 
 # Fotos
  <img src = "images/CadastroPage.jpeg" width = "400" height = "700">     <img src = "images/HomePage.jpeg" width = "400" height = "700">
