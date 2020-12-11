@@ -32,7 +32,7 @@ class MQTTRepository{
     _client.onSubscribed = onSubscribed;
 
 
-    _client.connect('lucas.baesse@sga.pucminas.br', '85384a9c');
+    _client.connect('<USUÁRIO>', '<SENHA>');
     _client.subscribe(_topic, MqttQos.atLeastOnce);
     _client.updates.listen((List<MqttReceivedMessage<MqttMessage>> c) {
       _currentState.setAppConnectionState(MQTTAppConnectionState.connected);
