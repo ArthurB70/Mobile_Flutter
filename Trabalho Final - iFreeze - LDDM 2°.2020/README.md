@@ -5,7 +5,8 @@
    
 # Vídeo demonstrativo
  https://www.youtube.com/watch?v=HdsYw6JwXJc
- <iframe width="560" height="315" src="https://www.youtube.com/embed/HdsYw6JwXJc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <div><iframe width="560" height="315" src="https://www.youtube.com/embed/HdsYw6JwXJc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+ 
 # Funcionalidades
   Na página inicial o usuário pode cadastrar, editar e remover geladeiras aos dados do aplicativo. Além disso, pode selecionar uma geladeira e adicionar produtos a ela por meio da leitura de um QRcode. A temperatura é medida por um sensor inserido na geladeira e é retornada por um protocolo MQTT. Na página de listagem dos produtos da geladeira, o usuário pode aumentar e diminuir a quantidade do produto, caso o produto tenha quantidade 0 ele é automaticamente excluído da lista.
   
