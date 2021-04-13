@@ -1,5 +1,5 @@
 # iFreeze
-   Trabalho final da disciplina de Laboratório de Desenvolvimento de Dispositivos Móveis. Feito por: Arthur Bernardo.
+   Trabalho final da disciplina de Laboratório de Desenvolvimento de Dispositivos Móveis. Feito por: Arthur Moura.
    
    O aplicativo tem como finalidade gerenciar listas de produtos contidos em geladeiras. Além disso, o aplicativo mostra ao usuário a temperatura da geladeira cadastrada em tempo real.
    
